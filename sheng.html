@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我的家乡</title>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://ts2.cn.mm.bing.net/th?id=OIP-C.ekYQkHCeWKU99AooOyRNQgHaEB&w=236&c=11&rs=1&qlt=90&bgcl=ececec&o=6&pid=PersonalBing&p=0'); /* 替换为你的背景图片地址 */
+    background-size: cover; /* 背景图片覆盖整个页面 */
+    background-position: center; /* 背景图片居中显示 */
+    background-attachment: fixed; /* 背景图片固定，不随滚动条滚动 */
+    color: #0b0b0b;
+    overflow-x: hidden; /* 防止内容溢出屏幕 */
+  }
+  .container {
+    display: flex;
+    height: 100vh; /* 使用视口高度 */
+  }
+  .left, .right {
+    flex: 1; /* 平均分配空间 */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .divider {
+    border-right: 2px dashed #ccc; /* 虚线分隔 */
+    margin: 0; /* 移除默认边距 */
+  }
+  .section {
+    flex: 1; /* 每个部分平均分配空间 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+  }
+  .section img {
+    max-width: 100%;
+    height: auto;
+  }
+  .text {
+    text-align: center;
+    font-size:x-large;
+    margin-top: 20px; /* 文字与图片的间距 */
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="left divider">
+    <div class="section">
+      <img src="https://ts3.cn.mm.bing.net/th?id=OIP-C.BuAYl_Y-CYSIijriPUm7HQAAAA&w=236&c=11&rs=1&qlt=90&bgcl=ececec&o=6&pid=PersonalBing&p=0" alt="左上图片">
+      <div class="text">
+        游戏绝对是我生活中不可或缺的一部分！
+      </div>
+    </div>
+    <div class="section">
+      <img src="https://ts1.cn.mm.bing.net/th?id=OIP-C.k_VFPJ5ALdJlGlQLcnq57gHaFB&w=236&c=11&rs=1&qlt=90&bgcl=ececec&o=6&pid=PersonalBing&p=0" alt="左下图片">
+      <div class="text">
+        碎片时间被短视频填满了。
+      </div>
+    </div>
+  </div>
+  <div class="right">
+    <div class="section">
+      <img src="https://ts1.cn.mm.bing.net/th?id=OIP-C.mlz0LqyyeZhr8bXsLwZqKQHaHa&w=236&c=11&rs=1&qlt=90&bgcl=ececec&o=6&pid=PersonalBing&p=0" alt="右上图片">
+      <div class="text">
+        心血来潮的时候我会跑跑步。
+      </div>
+    </div>
+    <div class="section">
+      <img src="https://ts2.cn.mm.bing.net/th?id=OIP-C.OaNXaRiKwDjxeqcs0G5S1AHaE8&w=236&c=11&rs=1&qlt=90&bgcl=ececec&o=6&pid=PersonalBing&p=0" alt="右下图片">
+      <div class="text">
+        每周找一个固定的时间静下来读书。
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

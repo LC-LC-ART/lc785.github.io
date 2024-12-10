@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我的家乡</title>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://ts2.cn.mm.bing.net/th?id=OIP-C.ekYQkHCeWKU99AooOyRNQgHaEB&w=236&c=11&rs=1&qlt=90&bgcl=ececec&o=6&pid=PersonalBing&p=0'); /* 替换为你的背景图片地址 */
+    background-size: cover; /* 背景图片覆盖整个页面 */
+    background-position: center; /* 背景图片居中显示 */
+    background-attachment: fixed; /* 背景图片固定，不随滚动条滚动 */
+    color: #0b0b0b;
+    overflow-x: hidden; /* 防止内容溢出屏幕 */
+  }
+  .container {
+    display: flex;
+    height: 100vh; /* 使用视口高度 */
+  }
+  .left, .right {
+    flex: 1; /* 平均分配空间 */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .divider {
+    border-right: 2px dashed #ccc; /* 虚线分隔 */
+    margin: 0; /* 移除默认边距 */
+  }
+  .section {
+    flex: 1; /* 每个部分平均分配空间 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+  }
+  .section img {
+    max-width: 100%;
+    height: auto;
+  }
+  .text {
+    text-align: center;
+    font-size:x-large;
+    margin-top: 20px; /* 文字与图片的间距 */
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="left divider">
+    <div class="section">
+      <img src="https://ts1.cn.mm.bing.net/th?id=OIP-C.4xw5poG0E7Thgys63xC31gHaFE&w=236&c=11&rs=1&qlt=90&bgcl=ececec&o=6&pid=PersonalBing&p=0" alt="左上图片">
+      <div class="text">
+        我来自广东，它位于中国南部，以其独特的文化、美食和自然风光而闻名。如图是广州塔，这是广州的标志性建筑，以其独特的造型和高度而闻名，因其上下宽，中间窄而得名“小蛮腰”是城市天际线的重要组成部分。
+      </div>
+    </div>
+    <div class="section">
+      <img src="https://ts1.cn.mm.bing.net/th?id=OIP-C.qlxIeZIO5BvxX9ugH7g1qwHaE8&w=236&c=11&rs=1&qlt=90&bgcl=ececec&o=6&pid=PersonalBing&p=0" alt="左下图片">
+      <div class="text">
+        广东早茶，又称为“饮茶”，是广东省尤其是广州地区独特的饮食文化，具有悠久的历史和深厚的文化底蕴。(虾饺，烧卖，干蒸，肠粉……真的很好吃！)
+      </div>
+    </div>
+  </div>
+  <div class="right">
+    <div class="section">
+      <img src="https://ts1.cn.mm.bing.net/th?id=OIP-C.iWZOLRn19gAA7LVufr3TLQHaHa&w=236&c=11&rs=1&qlt=90&bgcl=ececec&o=6&pid=PersonalBing&p=0" alt="右上图片">
+      <div class="text">
+        这是广东的特色水果荔枝，就是古代杨贵妃嚷嚷着要吃的那个。荔枝以其甜美多汁、肉质细腻、香气独特的口感而受到人们的喜爱。
+      </div>
+    </div>
+    <div class="section">
+      <img src="https://ts4.cn.mm.bing.net/th?id=OIP-C.qP4AQjAOfRsOyQ1wXfvYUAHaE7&w=236&c=11&rs=1&qlt=90&bgcl=ececec&o=6&pid=PersonalBing&p=0" alt="右下图片">
+      <div class="text">
+        这张图展示的是广东的祠堂文化，它是岭南地区特有的宗族文化现象。祠堂承载着家族的历史和文化，是传承族谱、家训等文化的重要场所。
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+

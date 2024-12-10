@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我的兴趣爱好</title>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://ts2.cn.mm.bing.net/th?id=OIP-C.ekYQkHCeWKU99AooOyRNQgHaEB&w=236&c=11&rs=1&qlt=90&bgcl=ececec&o=6&pid=PersonalBing&p=0'); /* 替换为你的背景图片地址 */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff; /* 白色字体，以适应深色背景 */
+    text-align: center;
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  .section {
+    background: rgba(0, 0, 0, 0.8); /* 半透明背景，以便突出内容 */
+    color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+  }
+  .section h2 {
+    font-size: 2em;
+    margin-top: 0;
+  }
+  .hobbies-list {
+    list-style: none;
+    padding: 0;
+  }
+  .hobbies-list li {
+    margin: 10px 0;
+  }
+  .hobbies-list li::before {
+    content: '🌟'; /* 使用小图标标记每个爱好 */
+    margin-right: 10px;
+    color: #ffd700; /* 金色星星 */
+  }
+  @media (max-width: 768px) {
+    .section {
+      margin: 10px auto;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="section">
+    <h1>我的兴趣爱好</h1>
+    <p>这里是一些我热爱的活动和兴趣。</p>
+  </div>
+  <div class="section">
+    <h2>我的兴趣</h2>
+    <ul class="hobbies-list">
+      <li>阅读小说</li>
+      <li>徒步旅行</li>
+      <li>唱歌</li>
+      <li>学习新语言</li>
+      <li>烹饪美食</li>
+    </ul>
+  </div>
+  <div class="section">
+    <h2>我的爱好</h2>
+    <ul class="hobbies-list">
+      <li>跑步</li>
+      <li>发呆</li>
+      <li>刷短视频</li>
+      <li>电子竞技</li>
+      <li>旅行探险</li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
